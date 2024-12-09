@@ -87,6 +87,7 @@ class ActionHandler extends HTMLElement implements IActionHandler {
       transform: "translate(-50%, -50%)",
       pointerEvents: "none",
       zIndex: "999",
+      display: "none",
     });
 
     this.appendChild(this.ripple);
